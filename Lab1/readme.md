@@ -80,10 +80,10 @@ for i in range(10):
     with torch.no_grad():
         x -= learning_rate_alpha * x.grad  #cập nhật x theo công thức gradient descent
 ```
-- KQ:
+- KQ :
 <img width="1374" height="457" alt="image" src="https://github.com/user-attachments/assets/5022dd6d-9ac1-4c5b-a4ea-656aee818ef0" />
----
 
+---
 #### 3. BTVN 3: tạo 1 tập dữ liệu giả lập với x là số giờ học ngẫu nhiên từ 1 đến 10 và y là số điểm đc tính theo công thức y = 3x + 5+ noise , với noise là 1 giá trị ngẫu nhiên nhỏ. 
 - Tạo dữ liệu giả lập x cho mối quan hệ tuyến tính: `y = 3x + 5 + noise`
 - Khởi tạo trọng só w và b ngẫu nhiên
@@ -107,10 +107,10 @@ for epoch in range(100):
         w -= lr_alpha * w.grad
         b -= lr_alpha * b.grad
 ```
-- KQ:
+- KQ :
 <img width="1265" height="1138" alt="image" src="https://github.com/user-attachments/assets/6351cd77-d993-4a85-bd84-1a46c140652d" />
---- 
 
+--- 
 #### BTVN 4: giải thích 2 trường hợp trên
 - Trường hợp 1: torch.from_numpy(arr): Tensor và Numpy dùng chung bộ nhớ nên  khi thay đổi arr thì x cũng thay đổi luôn
 - Trường hợp 2: torch.tensor(arr): trường hợp này do tạo Tensor mới (copy dữ liệu) từ arr = np.arange(0,5) nên khi thay đổi arr thì x không đổi.
@@ -118,19 +118,19 @@ for epoch in range(100):
 
 #### BTVN 5 : Tạo Tensor với Empyty, Zeros, Ones, Random, Reshape với view và view as
 - Với Empyty: sử dụng câu lệnh torch.empty()
-- KQ:
+- KQ :
 <img width="1036" height="294" alt="image" src="https://github.com/user-attachments/assets/b700796b-1e09-471b-ab28-97410c6278d7" />
 - Với Zeros: sử dụng câu lệnh torch.zeros()
-- KQ:
+- KQ :
 <img width="1234" height="315" alt="image" src="https://github.com/user-attachments/assets/46d4c324-8079-4c52-b694-67787cbee28b" />
 - Với Ones : sử dụng câu lệnh torch.ones()
-- KQ:
+- KQ :
 <img width="1257" height="354" alt="image" src="https://github.com/user-attachments/assets/9ae33af4-62a1-4aef-89a0-08af449d8ffa" />
 - Với Random: sử dụng câu lệnh torch.rand()
-- KQ:
+- KQ :
 <img width="1062" height="310" alt="image" src="https://github.com/user-attachments/assets/e49e7acb-dd22-4d89-b1b6-2165325ae82a" />
 - Với Reshape: cần thực hiện biến đổi hình dạng của 1 vector từ 1 chiều sang 2 chiều(ma trận)
-- KQ:
+- KQ :
 <img width="1081" height="414" alt="image" src="https://github.com/user-attachments/assets/3101162b-2cb4-494c-9b36-48ef642423f4" />
 
 
