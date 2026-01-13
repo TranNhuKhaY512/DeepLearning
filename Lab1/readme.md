@@ -43,7 +43,6 @@ y_train = torch.LongTensor(y_train).reshape(-1,1)
 y_test = torch.LongTensor(y_test).reshape(-1,1)
 ```
 ---
-
 ### 2. Tính đạo hàm bằng pytorch
 Minh họa khả năng tự động gradient của pytorch thông qua thuộc tính `requires_grad=True`
 - Tính đạo hàm của đa thức `y= 2x^4 + x^3 + 3x^2 + 5x + 1`
