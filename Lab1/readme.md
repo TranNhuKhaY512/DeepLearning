@@ -117,19 +117,24 @@ for epoch in range(100):
 ---
 
 #### BTVN 5 : Tạo Tensor với Empyty, Zeros, Ones, Random, Reshape với view và view as
-- Với Empyty: sử dụng câu lệnh torch.empty()
+- Với Empyty: sử dụng câu lệnh torch.empty().
 - KQ : 
 <img width="1036" height="294" alt="image" src="https://github.com/user-attachments/assets/b700796b-1e09-471b-ab28-97410c6278d7" />
-- Với Zeros: sử dụng câu lệnh torch.zeros()
-- KQ : 
+
+- Với Zeros: sử dụng câu lệnh torch.zeros().
+- KQ :
+  
 <img width="1234" height="315" alt="image" src="https://github.com/user-attachments/assets/46d4c324-8079-4c52-b694-67787cbee28b" />
-- Với Ones : sử dụng câu lệnh torch.ones()
-- KQ : 
+
+- Với Ones : sử dụng câu lệnh torch.ones().
+- KQ :
+  
 <img width="1257" height="354" alt="image" src="https://github.com/user-attachments/assets/9ae33af4-62a1-4aef-89a0-08af449d8ffa" />
-- Với Random: sử dụng câu lệnh torch.rand()
+
+- Với Random: sử dụng câu lệnh torch.rand().
 - KQ : 
 <img width="1062" height="310" alt="image" src="https://github.com/user-attachments/assets/e49e7acb-dd22-4d89-b1b6-2165325ae82a" />
-- Với Reshape: cần thực hiện biến đổi hình dạng của 1 vector từ 1 chiều sang 2 chiều(ma trận)
+- Với Reshape: cần thực hiện biến đổi hình dạng của 1 vector từ 1 chiều sang 2 chiều(ma trận).
 - KQ : 
 <img width="1081" height="414" alt="image" src="https://github.com/user-attachments/assets/3101162b-2cb4-494c-9b36-48ef642423f4" />
 
