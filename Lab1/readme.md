@@ -134,6 +134,7 @@ for epoch in range(100):
 - Với Random: sử dụng câu lệnh torch.rand().
 - KQ : 
 <img width="1062" height="310" alt="image" src="https://github.com/user-attachments/assets/e49e7acb-dd22-4d89-b1b6-2165325ae82a" />
+
 - Với Reshape: cần thực hiện biến đổi hình dạng của 1 vector từ 1 chiều sang 2 chiều(ma trận).
 - KQ : 
 <img width="1081" height="414" alt="image" src="https://github.com/user-attachments/assets/3101162b-2cb4-494c-9b36-48ef642423f4" />
