@@ -66,6 +66,7 @@ x.grad
 -  KQ :
 <img width="1928" height="419" alt="image" src="https://github.com/user-attachments/assets/a06901ed-db64-430e-bd64-35e7fd13f024" />
 ---
+
 #### 2. BTVN2: tạo 1 tensor ban đầu có giá trị là 2. định nghĩa hàm số và tính gradient y = x^3 + 2x^2 + 5x + 1. hãy tính dy/dx tại giá trị của x dùng phương pháp gradient descent với: learning_rate alpha =0.1 để cập nhật giá trị x trong 10 vòng lặp.
 - Tính đạo hàm của đa thức `y = x^3 + 2x^2 + 5x + 1` tại x = 2
 - Thực hiện thuật toán Gradient Descent với lr_rate_alpha = 0.1 qua 10 vòng lặp
