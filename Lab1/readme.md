@@ -65,8 +65,8 @@ x.grad
 ```
 -  KQ :
 <img width="1928" height="419" alt="image" src="https://github.com/user-attachments/assets/a06901ed-db64-430e-bd64-35e7fd13f024" />
----
 
+---
 #### 2. BTVN2: tạo 1 tensor ban đầu có giá trị là 2. định nghĩa hàm số và tính gradient y = x^3 + 2x^2 + 5x + 1. hãy tính dy/dx tại giá trị của x dùng phương pháp gradient descent với: learning_rate alpha =0.1 để cập nhật giá trị x trong 10 vòng lặp.
 - Tính đạo hàm của đa thức `y = x^3 + 2x^2 + 5x + 1` tại x = 2
 - Thực hiện thuật toán Gradient Descent với lr_rate_alpha = 0.1 qua 10 vòng lặp
@@ -82,8 +82,8 @@ for i in range(10):
 ```
 - KQ:
 <img width="1374" height="457" alt="image" src="https://github.com/user-attachments/assets/5022dd6d-9ac1-4c5b-a4ea-656aee818ef0" />
-
 ---
+
 #### 3. BTVN 3: tạo 1 tập dữ liệu giả lập với x là số giờ học ngẫu nhiên từ 1 đến 10 và y là số điểm đc tính theo công thức y = 3x + 5+ noise , với noise là 1 giá trị ngẫu nhiên nhỏ. 
 - Tạo dữ liệu giả lập x cho mối quan hệ tuyến tính: `y = 3x + 5 + noise`
 - Khởi tạo trọng só w và b ngẫu nhiên
@@ -109,13 +109,13 @@ for epoch in range(100):
 ```
 - KQ:
 <img width="1265" height="1138" alt="image" src="https://github.com/user-attachments/assets/6351cd77-d993-4a85-bd84-1a46c140652d" />
+--- 
 
----
 #### BTVN 4: giải thích 2 trường hợp trên
 - Trường hợp 1: torch.from_numpy(arr): Tensor và Numpy dùng chung bộ nhớ nên  khi thay đổi arr thì x cũng thay đổi luôn
 - Trường hợp 2: torch.tensor(arr): trường hợp này do tạo Tensor mới (copy dữ liệu) từ arr = np.arange(0,5) nên khi thay đổi arr thì x không đổi.
-
 ---
+
 #### BTVN 5 : Tạo Tensor với Empyty, Zeros, Ones, Random, Reshape với view và view as
 - Với Empyty: sử dụng câu lệnh torch.empty()
 - KQ:
