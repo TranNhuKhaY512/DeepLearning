@@ -19,6 +19,7 @@
 Trong lab này gồm các phần như sau:
 ### 1. Khởi tạo và xử lý dữ liệu :
 - Kiểm tra GPU/CUDA có hoạt động hay không
+- Code chính:
   ```python
   torch.cuda.is_available()
   ```
@@ -29,6 +30,7 @@ Trong lab này gồm các phần như sau:
 - Mã hóa nhãn "Species" sang dạng số.
 - Chia dữ liệu thành tập Train/Test (tỷ lệ 80/20)
 - Chuyển đổi dữ liệu từ numpy array sang tensor (FloatTensor cho đầu vào và LongTensor cho nhãn).
+- Code chính
 ```python
 le = LabelEncoder()
 X = df.drop(["Species"], axis = 1).values
@@ -54,6 +56,7 @@ Minh họa khả năng tự động gradient của pytorch thông qua thuộc t�
 #### 1. BTVN 1: cho y = 5x^5 + 6x^3 - 3x + 1. cho biết độ dốc của đa thức trên ở điểm nào.
 -  Tính đạo hàm của đa thức `y = 5x^5 + 6x^3 - 3x + 1`
 -  Sử dụng `.backward()` để lan truyền ngược và tính `x.grad`.
+-  Code chính:
 ```python
 x = torch.tensor(2.0, requires_grad=True)
 y = 5*x**5 + 6*x**3 - 3*x + 1
@@ -67,6 +70,7 @@ x.grad
 #### 2. BTVN2: tạo 1 tensor ban đầu có giá trị là 2. định nghĩa hàm số và tính gradient y = x^3 + 2x^2 + 5x + 1. hãy tính dy/dx tại giá trị của x dùng phương pháp gradient descent với: learning_rate alpha =0.1 để cập nhật giá trị x trong 10 vòng lặp.
 - Tính đạo hàm của đa thức `y = x^3 + 2x^2 + 5x + 1` tại x = 2
 - Thực hiện thuật toán Gradient Descent với lr_rate_alpha = 0.1 qua 10 vòng lặp
+- Code chính
 ```python
 x = torch.tensor(2.0, requires_grad=True)
 learning_rate_alpha = 0.1
@@ -83,6 +87,7 @@ for i in range(10):
 #### 3. BTVN 3: tạo 1 tập dữ liệu giả lập với x là số giờ học ngẫu nhiên từ 1 đến 10 và y là số điểm đc tính theo công thức y = 3x + 5+ noise , với noise là 1 giá trị ngẫu nhiên nhỏ. 
 - Tạo dữ liệu giả lập x cho mối quan hệ tuyến tính: `y = 3x + 5 + noise`
 - Khởi tạo trọng só w và b ngẫu nhiên
+- Code chính:
 ```python
 x = torch.rand(10,1) * 9 + 1
 noise = torch.randn(1)
@@ -91,6 +96,7 @@ w = torch.randn(1, requires_grad=True)
 b = torch.randn(1, requires_grad=True)
 ```
 - Xây dựng vòng lặp huấn luyện (100 vòng lặp ) tính toán MSE và cập nhật w, b bằng gradient Descent với Learning rate alpha = 0.01 để mô hình hội tụ về giá trị thực.
+- Code chính: 
 ```python
 for epoch in range(100):
     y_pred = w * x + b  # dự đoán theo mô hình tuyến tính
