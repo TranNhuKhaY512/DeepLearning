@@ -4,7 +4,7 @@
 ### GVHD: Nguyễn Thái Anh
 ---
 ### Lab 1 : Pytorch cơ bản & quy hồi tuyến tính
-Trong lab này, chủ yếu sử dụng thư viện Pytorch tập trung vào xử lý tensor, tính đạo hàm và triển khai thuật toán Gradient Descent để giải quyết bài toán tuyến tính.
+- Trong lab này, chủ yếu sử dụng thư viện Pytorch tập trung vào xử lý tensor, tính đạo hàm và triển khai thuật toán Gradient Descent để giải quyết bài toán tuyến tính.
 ---
 ### Công nghệ sử dụng
 - Ngôn ngữ: Python 3.11.5
