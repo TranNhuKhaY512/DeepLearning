@@ -4,7 +4,7 @@
 ### GVHD : Nguyễn Thái Anh
 
 ## Giới thiệu
-Trong bài lab này tập trung vào việc làm quen và thực hành với **NumPy, Pandas và Matplotlib** trong Python.
+Trong bài lab này tập trung vào việc làm quen và thực hành với **NumPy** trong Python.
 Nội dung chủ yếu xoay quanh:
 
 * Xử lý mảng và ma trận
@@ -13,7 +13,7 @@ Nội dung chủ yếu xoay quanh:
 
 ---
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 * **Python 3**
 * **NumPy** : Làm việc với mảng, ma trận, phép toán số học, xử lý dữ liệu số.
