@@ -1,5 +1,5 @@
 # DEEP LEARNING – Tuần 2
-## Numpy, Pandas & Matplotlib
+## Numpy, Pandas 
 ### Sinh viên thực hiện: Trần Như Khả Ý _ 2374802010582
 ### GVHD : Nguyễn Thái Anh
 
