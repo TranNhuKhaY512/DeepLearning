@@ -161,9 +161,9 @@ transform_test = transforms.Compose([
   - Bộ tối ưu hóa (optim.AdamW):
     - lr=0.001: Tốc độ học khởi tạo giúp mô hình hội tụ nhanh và ổn định.
     - weight_decay=1e-2: Kỹ thuật Regularization (L2) mạnh mẽ giúp kiểm soát trọng số, trực tiếp ngăn chặn hiện tượng Overfitting.
-      - Bộ điều chỉnh tốc độ học (ReduceLROnPlateau):
-        - Cơ chế: Theo dõi độ chính xác (mode='max').
-        - Điều kiện: Nếu độ chính xác không tăng sau 5 Epoch (patience=5), tốc độ học sẽ giảm đi một nửa (factor=0.5).
+  - Bộ điều chỉnh tốc độ học (ReduceLROnPlateau):
+    - Cơ chế: Theo dõi độ chính xác (mode='max').
+    - Điều kiện: Nếu độ chính xác không tăng sau 5 Epoch (patience=5), tốc độ học sẽ giảm đi một nửa (factor=0.5).
 ```python
 model = CatDog_CNN().to(device)
 criterion = nn.CrossEntropyLoss()
