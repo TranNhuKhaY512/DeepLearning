@@ -45,6 +45,7 @@ pip install torch torchvision gradio pillow
 ### Tải file trọng số (Model Weights)
 
 Do giới hạn dung lượng của GitHub, file `catdog_model.pth` (>25mb) cần được tải riêng:
+
 Mô hình CNN (Chó & Mèo): [catdog_model.pth](https://drive.google.com/file/d/13pX_eKTrATqG0-h6vfcbpjlZ7WFIf9T1/view?usp=sharing)
 
 
@@ -61,6 +62,3 @@ python ANN_web.py
 Sau khi chạy, truy cập vào đường dẫn mặc định: `http://127.0.0.1:7860`
 
 
------
-
-*Dự án này được xây dựng cho mục đích học tập và nghiên cứu về Computer Vision.*
