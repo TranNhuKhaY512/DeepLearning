@@ -30,7 +30,7 @@ Trang web bao gồm hai công cụ phân tích thị giác máy tính chuyên bi
 ## Hướng dẫn cài đặt
 Vì file trọng số của mô hình có kích thước lớn (>25MB), vui lòng tải file trực tiếp từ Google Drive theo đường dẫn dưới đây và lưu vào thư mục gốc của dự án trước khi chạy:
 
-Mô hình ANN (Chó & Mèo): [catdog_model.pth](https://drive.google.com/file/d/13pX_eKTrATqG0-h6vfcbpjlZ7WFIf9T1/view?usp=sharing)
+Mô hình CNN (Chó & Mèo): [catdog_model.pth](https://drive.google.com/file/d/13pX_eKTrATqG0-h6vfcbpjlZ7WFIf9T1/view?usp=sharing)
 
 Mô hình CNN (CIFAR-10): [cifar10_model.pth](https://drive.google.com/file/d/1VVDSx6RB2XnYpHbyAws8NiIBOWTSxiOP/view?usp=sharing)
 
